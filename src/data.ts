@@ -322,6 +322,9 @@ export const allProducts: Product[] = [
     earning: { year: 38396.8, month: 14398.8, week: 3599.7 },
     image: "📱",
     category: "Smartphone",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#574908",
@@ -331,6 +334,9 @@ export const allProducts: Product[] = [
     earning: { year: 4797.6, month: 1599.2, week: 399.8 },
     image: "✏️",
     category: "Accessories",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#007234",
@@ -340,6 +346,9 @@ export const allProducts: Product[] = [
     earning: { year: 18397.7, month: 5599.3, week: 1599.8 },
     image: "⌚",
     category: "Wearables",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#123456",
@@ -349,6 +358,9 @@ export const allProducts: Product[] = [
     earning: { year: 30797.2, month: 10999.0, week: 3299.7 },
     image: "📱",
     category: "Smartphone",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#789012",
@@ -358,6 +370,9 @@ export const allProducts: Product[] = [
     earning: { year: 6648.1, month: 2099.4, week: 349.9 },
     image: "🎧",
     category: "Audio",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#345678",
@@ -367,6 +382,9 @@ export const allProducts: Product[] = [
     earning: { year: 37498.5, month: 12499.5, week: 2499.9 },
     image: "💻",
     category: "Computer",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#901234",
@@ -376,6 +394,9 @@ export const allProducts: Product[] = [
     earning: { year: 12748.3, month: 4499.4, week: 749.9 },
     image: "📱",
     category: "Tablet",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#567890",
@@ -385,6 +406,9 @@ export const allProducts: Product[] = [
     earning: { year: 6998.0, month: 2799.2, week: 699.8 },
     image: "🎮",
     category: "Gaming",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#112233",
@@ -394,6 +418,9 @@ export const allProducts: Product[] = [
     earning: { year: 6878.4, month: 2149.5, week: 429.9 },
     image: "🎧",
     category: "Audio",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#445566",
@@ -403,6 +430,9 @@ export const allProducts: Product[] = [
     earning: { year: 19999.2, month: 7499.7, week: 2499.9 },
     image: "📷",
     category: "Camera",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#778899",
@@ -412,6 +442,9 @@ export const allProducts: Product[] = [
     earning: { year: 10798.8, month: 3599.6, week: 899.9 },
     image: "🚁",
     category: "Drone",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
   {
     id: "#001122",
@@ -421,5 +454,8 @@ export const allProducts: Product[] = [
     earning: { year: 19999.0, month: 5999.7, week: 1999.9 },
     image: "📺",
     category: "TV",
+    status: "Active",
+    stock: 50,
+    rating: 4.5,
   },
 ];

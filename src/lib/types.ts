@@ -56,4 +56,7 @@ export interface Product {
   earning: ProductEarning;
   image: string;
   category: string;
+  stock: number;
+  status: "Active" | "Inactive";
+  rating: number;
 }
