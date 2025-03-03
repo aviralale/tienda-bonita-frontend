@@ -49,7 +49,7 @@ const ProductsPage: React.FC = () => {
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
 
   // Derived state
-  const productsPerPage = 5;
+  const productsPerPage = 10;
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
@@ -569,11 +569,7 @@ const ProductsPage: React.FC = () => {
                     }}
                   >
                     <div className="flex items-center gap-3">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-10 h-10 rounded object-cover"
-                      />
+                      <span>{product.image}</span>
                       <div className="text-sm font-medium">{product.name}</div>
                     </div>
                   </td>
@@ -669,7 +665,7 @@ const ProductsPage: React.FC = () => {
             </tbody>
           </table>
           <div
-            className=" fleems-center justify-between border-t"
+            className="flex items-center justify-between border-t"
             style={{
               padding: "1rem",
             }}

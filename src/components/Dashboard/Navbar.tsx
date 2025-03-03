@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import {
   BellIcon,
-  ChartColumnBigIcon,
+  GemIcon,
   LayoutDashboardIcon,
   ReceiptTextIcon,
   Search,
@@ -28,7 +28,11 @@ const Navbar = () => {
     { path: "/products", icon: <ShoppingBagIcon />, label: "Products" },
     { path: "/orders", icon: <ReceiptTextIcon />, label: "Orders" },
     { path: "/customers", icon: <UsersRoundIcon />, label: "Customers" },
-    { path: "/statistics", icon: <ChartColumnBigIcon />, label: "Statistics" },
+    {
+      path: "/promo-codes",
+      icon: <GemIcon />,
+      label: "Promo Codes",
+    },
   ];
 
   // Update dimensions when the location changes
